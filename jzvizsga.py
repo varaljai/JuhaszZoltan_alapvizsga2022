@@ -1,4 +1,3 @@
-
 #1 feladat:
 print("1. feladat:")
 
