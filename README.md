@@ -1,0 +1,1 @@
+# JuhaszZoltan_alapvizsga2022
