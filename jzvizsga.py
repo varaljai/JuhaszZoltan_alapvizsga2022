@@ -1,4 +1,4 @@
-"""
+
 #1 feladat:
 print("1. feladat:")
 
@@ -43,7 +43,7 @@ elif a == b or a == c or c == b  :
 elif a**2 + b**2 < c**2:
     print(f"     derékszögü háromszög.")
     print(f"     kerület: {kerulet},terület: {terulet} ")
-"""
+
 #3. feladat:
 print("3. feladat: ")
 class Bolygok:
