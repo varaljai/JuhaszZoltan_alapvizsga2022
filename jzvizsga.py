@@ -67,7 +67,7 @@ print(f"     3.2: a napredszerben egy bolygónak átlagosan {atlag} holdja van")
 terfogatai = [float(sor.terfogat) for sor in l]
 maxterfogat = max(terfogatai)
 vizsgalat = [sor.neve for sor in l if float(sor.terfogat) == maxterfogat]
-print(f"     3.3: A legnagyobb térfogatú bolygó a {vizsgalat}.")
+print(f"     3.3: A legnagyobb térfogatú bolygó a {vizsgalat[0]}.")
 
 #(3.4) feladat:
 nev = input("     3.4: Írd le a kereset bolygó nevét: ")
@@ -76,7 +76,7 @@ valasz = "          van ilyen nevű bolygó" if kereses else "          sajnos n
 print(valasz)
 
 #(3.5) feladat:
-szam = int(input("    3.5: írj be egy egész számot: "))
+szam = int(input("     3.5: írj be egy egész számot: "))
 bolygok = [sor.neve for sor in l if szam < int(sor.holdak)]
 print(f"          a következő bolygonak van {szam}-nál/nél több holdja:")
 print("        ",bolygok)
